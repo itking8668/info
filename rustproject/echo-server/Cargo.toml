@@ -1,0 +1,18 @@
+[package]
+name = "echo-server"
+version = "0.1.0"
+authors = ["johnsen <xiaohe_mimang@126.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = "0.1"
+futures = "0.1"
+
+[[bin]]
+path = "src/main.rs"
+name = "echo-server"
+
+[[bin]]
+path = "src/helloworld.rs"
+name = "hello"
+
